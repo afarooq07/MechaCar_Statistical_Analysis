@@ -26,7 +26,7 @@ Establishing our significance level at 0.05, we can infer that:
 
 2) In addition, the p-value of our linear regression analysis is 5.35e-11, which is much smaller than our assumed significance level of 0.05. Hence, we can state that there is sufficient evidence to reject null hypothesis (that the slope = zero). Slope of the linear regression model is NOT zero.
 
-3) In order to determine how effective this linear model is to approximate mpg of MechaCar prototype, we will look at r-squared (r2) value. in this case, our R-squared value is 0.7149, which means there is a string positive correlation between the variables.
+3) In order to determine how effective this linear model is to approximate mpg of MechaCar prototype, we will look at r-squared (r2) value. In this case, our R-squared value is 0.7149, which means there is a strong positive correlation between the variables.
 
 <br />
 
@@ -58,7 +58,7 @@ So the manufacturing process is not consistent across all lots with Lot3 not mee
 ## T-Tests on Suspension Coils
 For deliverable 3, we will determine if all manufacturing lots and individual lots are statistically different from the population mean of 1500 PSI.
 
-In order to do so, lets state out Null and Alternative hypothesis for the first part, overall manufacturing lots:
+In order to do so, lets state Null and Alternative hypothesis for the first part, overall manufacturing lots:
 - H0 --> PSI is statistically the same as population mean of 1500 PSI (p-value > 0.05, using 0,05 significance level)
 - Ha --> PSI is  statistically different from the population mean of 1500 PSI (p-value < 0.05, using 0,05  significance level)
 
@@ -109,7 +109,7 @@ p-value of 0.04 is less the significance level and there is 95% confidence that 
 
 ## Study Design: MechaCar vs Competition
 
-In order to design a statistical stude=y to determine how MechaCar vehicles perform  compare to its competition, we need to define the parameters of the study such as:
+In order to design a statistical study to determine how MechaCar vehicles perform  compared to its competition, we need to define the parameters of the study such as:
 - How many competitors are we going to include in the study?
 - What kind of vehicles are we going to consider?
 - What is the success criteria?
@@ -147,7 +147,7 @@ For this study, lets make the following assumptions regarding the questions abov
         - Coolant change
     - Safety Ratings: on a scale of 1-5, this should be based on the following features (for example):
         - Airbags
-        - transaction control
+        - traction control
         - Brake assist
         - blind spot warning
         - Pedestrian detection
